@@ -12,6 +12,9 @@ export default function Home() {
       .then((data) => {
         setData(data);
         setLoading(false);
+      })
+      .catch((e) => {
+        console.log(e);
       });
   }, []);
 
