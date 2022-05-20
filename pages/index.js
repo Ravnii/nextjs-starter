@@ -1,25 +1,38 @@
-import SmallCard from '../components/SmallCard';
-import { projectIcons } from '../components/Icons';
+import { useState, useEffect } from 'react';
+import Calendar from '../components/Calendar';
 
-import { projects } from '../utils/projectsData';
+export default function Home() {
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
 
-const Home = () => (
-  <div className="home">
-    <h1>What Can I Deploy to Static Apps?</h1>
-    <div className="card-grid">
-      {projects.map((project) => {
-        const Icon = projectIcons[project.id];
-        return (
-          <SmallCard
-            key={project.id}
-            Icon={Icon}
-            title={project.name}
-            slug={project.slug}
-          />
-        );
-      })}
+  useEffect(() => {
+    setLoading(true);
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/calendar`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No calendar data</p>;
+
+  return (
+    <div className="home">
+      <h1>Sandbjerglejrens Infoskærm</h1>
+      <div className="card-grid">
+        {data.map((event) => {
+          return (
+            <Calendar
+              key={event.id}
+              summary={event.summary}
+              start={event.start}
+              end={event.end}
+            />
+          );
+        })}
+      </div>
     </div>
-  </div>
-);
-
-export default Home;
+  );
+}

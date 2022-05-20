@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98949fc0-1a62-4f4d-aecb-c71ca51dc6b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MessDetectorProjectConfiguration">
+    <option name="selectedConfigurationId" value="3c9a8fdb-f56f-4e54-8cbd-92b08acac63e" />
+  </component>
+  <component name="PHPCodeSnifferProjectConfiguration">
+    <option name="selectedConfigurationId" value="3c9a8fdb-f56f-4e54-8cbd-92b08acac63e" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9013" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 7.3" />
+  <component name="ProjectId" id="28e2J3elB47pt5hub3pSql4Bmlo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nextjs-backend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="wsl://UBUNTU@/usr/bin/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98949fc0-1a62-4f4d-aecb-c71ca51dc6b9" name="Default Changelist" comment="" />
+      <created>1651562657126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651562657126</updated>
+      <workItem from="1651562658758" duration="825000" />
+      <workItem from="1651583243596" duration="2010000" />
+      <workItem from="1651825683023" duration="83000" />
+      <workItem from="1652002005502" duration="17000" />
+      <workItem from="1652878804359" duration="1963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1144" y="579" key="#ESLint" timestamp="1651565659154">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1144" y="579" key="#ESLint/0.0.2560.1400/2560.0.2560.1400/-1920.366.1920.1040@0.0.2560.1400" timestamp="1651565659154" />
+    <state x="-1180" y="641" key="FileChooserDialogImpl" timestamp="1651586220927">
+      <screen x="-1920" y="366" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="641" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400/-1920.366.1920.1040@-1920.366.1920.1040" timestamp="1651586220927" />
+  </component>
+</project>
