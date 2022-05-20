@@ -8,7 +8,10 @@ export default function Home() {
   useEffect(() => {
     setLoading(true);
     fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/calendar`)
-      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        return res.json();
+      })
       .then((data) => {
         setData(data);
         setLoading(false);
