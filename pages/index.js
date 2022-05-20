@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/calendar`)
+    fetch(`https://nextjs-backend.azurewebsites.net/api/calendar`)
       .then((res) => {
         console.log(res);
         return res.json();
